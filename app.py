@@ -42,8 +42,6 @@ for col in label_cols:
                                            'furnished': 2, 'semi-furnished': 1, 'unfurnished': 0})
 
 # إجراء التوقع
-"""
 if st.button("🔍 Predict Price"):
     prediction = model.predict(user_input)[0]
     st.success(f"🏡 Estimated House Price: ₹ {prediction:,.0f}")
-"""
